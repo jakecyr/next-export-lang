@@ -1,6 +1,6 @@
 {
   "name": "next-export-lang",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A npm package to add the HTML lang attribute to all export files after building for SEO",
   "author": "Jake Cyr",
   "license": "ISC",

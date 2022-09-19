@@ -10,7 +10,7 @@ const args = process.argv.slice(2);
 const lang = args.length > 0 ? args[0] : 'en';
 
 (async () => {
-  const outFolder = path.join(__dirname, './out');
+  const outFolder = path.resolve('./out');
   const outFolderExists = await pathExists(outFolder);
 
   if (!outFolderExists) {
