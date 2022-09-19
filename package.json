@@ -1,0 +1,28 @@
+{
+  "name": "next-export-lang",
+  "version": "1.0.0",
+  "description": "A npm package to add the HTML lang attribute to all export files after building for SEO",
+  "author": "Jake Cyr",
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/jakecyr/next-export-lang.git"
+  },
+  "main": "index.js",
+  "bin": "./index.js",
+  "keywords": [
+    "nextjs",
+    "next",
+    "export",
+    "lang",
+    "lighthouse"
+  ],
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "glob": "^8.0.3",
+    "html-minifier": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.0.0",
+    "@types/html-minifier": "^4.0.2"
+  }
+}
