@@ -1,6 +1,6 @@
-# Next Export Lang
+# Next.js Export Lang
 
-A simple npm package to add the HTML lang attribute to all export files after building to satisfy the Lighthouse accessibility rule for SEO.
+A simple npm package to add the HTML lang attribute to all Next.js export files after building to satisfy the Lighthouse accessibility rule for SEO.
 
 ## Installation and Usage
 
